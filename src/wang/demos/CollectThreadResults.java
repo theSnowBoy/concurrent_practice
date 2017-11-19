@@ -26,12 +26,11 @@ public class CollectThreadResults {
 		T2.start();
 		Thread.sleep(600);
 		latch.await();
-		//结果应为10.
 		int sum = 0;
 		for(int result : results){
 			sum += result;
 		}
-		System.out.println("结果为 ： " + sum);
+		System.out.println("结果为 ： " + sum);//结果应为10.（正确）
 	}
 	public  static class MyThread implements Runnable{
 		private int start;
