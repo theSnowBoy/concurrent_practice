@@ -1,5 +1,5 @@
-# concurrent_practice
-java, demos of concurrent programming.
+# 简介
+java并发编程的小的示例。
 
 #题目
 ##同步
